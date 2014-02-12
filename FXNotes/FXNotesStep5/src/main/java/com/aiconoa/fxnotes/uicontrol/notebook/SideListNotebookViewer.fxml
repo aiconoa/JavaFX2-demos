@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="javafx.scene.control.SplitPane" xmlns:fx="http://javafx.com/fxml">
+  <items>
+    <VBox prefHeight="398.0" prefWidth="180.0">
+      <children>
+        <ToolBar>
+          <items>
+            <Button mnemonicParsing="false" text="Button" />
+          </items>
+        </ToolBar>
+        <TableView fx:id="tableView" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+          <columns>
+            <TableColumn prefWidth="75.0" text="Updated" />
+            <TableColumn editable="false" prefWidth="75.0" text="Title" />
+          </columns>
+        </TableView>
+      </children>
+    </VBox>
+    <AnchorPane fx:id="noteEditorAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+  </items>
+</fx:root>
