@@ -7,3 +7,4 @@ Created with NetBeans and Maven.
 
 Contains the following demos:
 * HelloWorld, first JavaFX demo: fxml, bindings, css
+* FXNotes, JavaFX GUI inspired by Evernote
