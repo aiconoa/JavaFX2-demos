@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="javafx.scene.layout.VBox" prefHeight="600.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <ToolBar>
+      <items>
+        <Button mnemonicParsing="false" text="Share" />
+        <Button mnemonicParsing="false" text="Metas" />
+        <Button mnemonicParsing="false" style="-fx-background-color:red" text="Trash note" />
+      </items>
+    </ToolBar>
+    <TextField fx:id="noteTitleTextField" editable="true" prefWidth="200.0" promptText="Note title" />
+    <AnchorPane fx:id="videoPane" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color:white" VBox.vgrow="ALWAYS" />
+  </children>
+</fx:root>
