@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.aiconoa.bindings.FXMLController">
+  <children>
+    <Label fx:id="wordLabel" layoutX="52.0" layoutY="35.0" text="Label" />
+    <Circle fx:id="circle" fill="DODGERBLUE" layoutX="292.0" layoutY="311.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+    <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="52.0" layoutY="261.0" stroke="BLACK" strokeType="INSIDE" width="136.0" />
+    <TextField fx:id="textField" layoutX="52.0" layoutY="70.0" prefWidth="200.0" />
+    <Button fx:id="updateButton" layoutX="262.0" layoutY="70.0" mnemonicParsing="false" text="Reset" />
+    <Slider fx:id="sizeSlider" layoutX="146.0" layoutY="154.0" />
+    <Slider fx:id="colorSlider" layoutX="146.0" layoutY="187.0" />
+    <Separator layoutX="52.0" layoutY="124.0" minHeight="2.0" prefHeight="2.0" prefWidth="290.0" />
+    <Label layoutX="57.0" layoutY="150.0" text="Adjust size" />
+    <Label id="colorLabel" fx:id="sizeLabel" layoutX="314.0" layoutY="153.0" text="Label" />
+    <Label layoutX="57.0" layoutY="188.0" text="Adjust color" />
+    <Label id="sizeLabel" fx:id="colorLabel" layoutX="314.0" layoutY="184.0" text="Label" />
+    <ChoiceBox fx:id="choiceBox" layoutX="146.0" layoutY="217.0">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <Label layoutX="56.0" layoutY="219.0" text="Switch color" />
+  </children>
+</AnchorPane>
