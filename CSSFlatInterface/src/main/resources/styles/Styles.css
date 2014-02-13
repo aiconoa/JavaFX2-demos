@@ -1,0 +1,127 @@
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright 2014 AICONOA.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+.root {
+    -fx-background-color: #333333;
+}
+
+#gridPane {
+    -fx-background-color:black;
+}
+
+#gaugePane {
+    -fx-background-color: linear-gradient(#0000DD, #000066);
+/*        linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),
+        linear-gradient(#020b02, #3a3a3a),
+        linear-gradient(#9d9e9d 0%, #6b6a6b 20%, #343534 80%, #242424 100%),
+        linear-gradient(#8a8a8a 0%, #6b6a6b 20%, #343534 80%, #262626 100%),
+        linear-gradient(#777777 0%, #606060 50%, #505250 51%, #2a2b2a 100%); */
+/*    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) ,1, 0.0 , 0 , 1); */
+}
+
+#thresoldPane {
+    -fx-background-color: linear-gradient(to left, #DD0000, #990000);
+}
+
+#lineChart {
+    -fx-background-color: linear-gradient(#000000 60%, #440000 100%);
+}
+
+#lineChart .chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.defautButton {
+    -fx-text-fill: white;
+    -fx-background-size: 50px 50px;
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: 50% 50%;
+    -fx-background-insets: 0px;
+    -fx-background-radius: 0px;
+}
+
+.blueLinearGradient {
+    -fx-background-color: linear-gradient(#0000DD, #000066);
+}
+
+.greenLinearGradient {
+    -fx-background-color: linear-gradient(to left, #007700, #003300);
+}
+
+.minmaxlabel {
+    -fx-text-fill: white;
+    -fx-font-size:20px;
+    -fx-font-family:Helvetica;
+}
+
+#tempLabel {
+    -fx-font-size:60px;
+    -fx-font-family:Helvetica;
+    -fx-font-weight:bold;
+    -fx-text-fill:white;  
+}
+
+#tempLabel:hover {
+    -fx-text-fill:#ccc;
+}
+
+#plus {
+    -fx-background-image: url("/images/noun_project_2875_plus.png");
+}
+
+#plus:hover {
+    -fx-background-image: url("/images/noun_project_2875_plus_hover.png");
+}
+
+#minus {
+    -fx-background-image: url("/images/noun_project_2850_minus.png");
+}
+
+#minus:hover {
+    -fx-background-image: url("/images/noun_project_2850_minus_hover.png");
+}
+
+#reload {
+    -fx-background-image: url("/images/noun_project_3753_reload.png");
+}
+
+#reload:hover {
+    -fx-background-image: url("/images/noun_project_3753_reload_hover.png");
+}
+
+#quit {
+    -fx-background-image: url("/images/noun_project_94.png");
+}
+
+#quit:hover {
+    -fx-background-image: url("/images/noun_project_94_hover.png");
+}
+
+.chart-legend { /* FX caspian stylesheet */
+visibility: hidden;
+-fx-background-color: red, green;
+-fx-background-insets: 0px, 1px;
+-fx-background-radius: 6px, 5px;
+-fx-padding: 6px;
+}
