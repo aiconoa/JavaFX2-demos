@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+
+<VBox prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.aiconoa.htmlintegrationmaps.FXMLController">
+  <children>
+    <HBox prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+      <children>
+        <ListView id="list" fx:id="placesListView" prefHeight="200.0" prefWidth="200.0" />
+        <WebView fx:id="webView" prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+      </children>
+    </HBox>
+    <Label alignment="CENTER" contentDisplay="LEFT" maxWidth="1.7976931348623157E308" style="-fx-background-color:#333;&#10;-fx-padding:5px 0px;" text="Don't forget to use your own API key in map.html" textAlignment="CENTER" textFill="RED" underline="false">
+      <font>
+        <Font name="System Bold" size="20.0" />
+      </font>
+    </Label>
+  </children>
+</VBox>
