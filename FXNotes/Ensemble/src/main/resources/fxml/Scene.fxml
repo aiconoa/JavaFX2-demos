@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.aiconoa.ensemble.FXMLController">
+  <center>
+    <SplitPane dividerPositions="0.45363408521303256" focusTraversable="true" prefHeight="160.0" prefWidth="200.0">
+      <items>
+        <VBox prefHeight="498.0" prefWidth="236.0">
+          <children>
+            <ToolBar>
+              <items>
+                <Button mnemonicParsing="false" text="Button" />
+              </items>
+            </ToolBar>
+            <TreeView prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+          </children>
+        </VBox>
+        <VBox prefHeight="-1.0" prefWidth="-1.0">
+          <children>
+            <HBox prefHeight="-1.0" prefWidth="-1.0">
+              <children>
+                <ToolBar HBox.hgrow="ALWAYS">
+                  <items>
+                    <Button mnemonicParsing="false" text="Button" />
+                  </items>
+                </ToolBar>
+                <ToolBar>
+                  <items>
+                    <Button mnemonicParsing="false" text="Button" />
+                  </items>
+                </ToolBar>
+              </children>
+            </HBox>
+            <VBox prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+              <children>
+                <Label text="Transition">
+                  <font>
+                    <Font size="18.0" />
+                  </font>
+                  <VBox.margin>
+                    <Insets left="10.0" top="10.0" />
+                  </VBox.margin>
+                </Label>
+                <ScrollPane id="ScrollPane" fitToWidth="true" prefViewportHeight="470.0" prefViewportWidth="433.0" VBox.vgrow="ALWAYS">
+                  <content>
+                    <TilePane hgap="5.0" prefHeight="-1.0" prefWidth="-1.0" vgap="5.0">
+                      <children>
+                        <Pane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color:red" />
+                        <Pane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color:red" />
+                        <Pane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color:red" />
+                        <Pane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color:red" />
+                        <Pane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color:red" />
+                        <Pane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color:red" />
+                        <Pane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color:red" />
+                        <Pane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color:red" />
+                        <Pane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color:red" />
+                        <Pane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color:red" />
+                        <Pane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color:red" />
+                        <Pane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color:red" />
+                        <Pane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color:red" />
+                        <Pane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color:red" />
+                        <Pane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color:red" />
+                        <Pane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color:red" />
+                      </children>
+                    </TilePane>
+                  </content>
+                </ScrollPane>
+              </children>
+            </VBox>
+          </children>
+        </VBox>
+      </items>
+    </SplitPane>
+  </center>
+  <top>
+    <HBox prefHeight="-1.0" prefWidth="-1.0">
+      <children>
+        <Label text="Label" />
+        <StackPane id="StackPane" HBox.hgrow="ALWAYS">
+          <children>
+            <HBox maxWidth="-Infinity" prefHeight="-1.0" prefWidth="-1.0" StackPane.alignment="TOP_CENTER">
+              <children>
+                <Button mnemonicParsing="false" text="Button" HBox.hgrow="SOMETIMES" />
+                <Button mnemonicParsing="false" text="Button" HBox.hgrow="SOMETIMES" />
+              </children>
+            </HBox>
+          </children>
+        </StackPane>
+        <StackPane prefHeight="-1.0" prefWidth="-1.0">
+          <children>
+            <TextField prefWidth="200.0" StackPane.alignment="CENTER" />
+          </children>
+        </StackPane>
+        <VBox prefHeight="-1.0" prefWidth="-1.0">
+          <children>
+            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="_" />
+            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="[]" />
+            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="X" />
+          </children>
+        </VBox>
+      </children>
+    </HBox>
+  </top>
+</BorderPane>
