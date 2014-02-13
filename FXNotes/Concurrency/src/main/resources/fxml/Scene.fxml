@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="250.0" prefWidth="320.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.aiconoa.concurrency.FXMLController">
+  <children>
+    <Button id="button" fx:id="clickMe" layoutX="237.0" layoutY="21.0" onAction="#handleButtonAction" text="Click Me!" />
+    <Label id="label" fx:id="stateLabel" layoutX="26.0" layoutY="169.0" minHeight="16.0" minWidth="68.99990000000253" prefWidth="68.99990000000253" />
+    <ProgressBar fx:id="progressBar" layoutX="26.0" layoutY="26.0" prefWidth="200.0" progress="0.0" />
+    <Button fx:id="startButton" layoutX="26.0" layoutY="136.0" mnemonicParsing="false" onAction="#handleButtonStart" text="Start" />
+    <Button fx:id="restartButton" layoutX="79.0" layoutY="136.0" mnemonicParsing="false" onAction="#handleButtonRestart" text="Restart" />
+    <Button layoutX="198.0" layoutY="136.0" mnemonicParsing="false" onAction="#handleButtonCancel" text="Cancel" />
+    <Button fx:id="resetButton" layoutX="146.0" layoutY="136.0" mnemonicParsing="false" onAction="#handleButtonReset" text="Reset" />
+    <Label fx:id="status" layoutX="26.0" layoutY="193.0" prefWidth="266.0" text="Label" />
+    <ProgressIndicator fx:id="progressIndicator" layoutX="26.0" layoutY="62.0" prefHeight="57.0" prefWidth="69.0" progress="0.0" />
+  </children>
+</AnchorPane>
